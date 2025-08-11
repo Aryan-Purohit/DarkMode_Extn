@@ -7,7 +7,6 @@ document.getElementById('changeColorBtn').addEventListener('click', async () => 
   });
 });
 
-// This function will be executed as a content script on the page
 function setPageBackgroundColor() {
-  document.body.style.backgroundColor = '#0000'; // A nice light yellow
+  document.body.style.backgroundColor = '#f5dd90';
 }
